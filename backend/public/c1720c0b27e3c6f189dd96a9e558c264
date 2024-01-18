@@ -1,0 +1,471 @@
+{
+  "Version": 1200,
+  "WindowTop": 50,
+  "WindowLeft": 50,
+  "WindowWidth": 1525,
+  "WindowHeight": 900,
+  "WindowState": 0,
+  "EnabledTemperatureSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 3600",
+      "Name": "CPU CCD1 (Tdie)",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Temperature",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledVoltageSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 3600",
+      "Name": "Core 0 VID",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "+12V Voltage",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "+5V Voltage",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "SB 1.05V Voltage",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Core Voltage",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledFanSensors": [
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "CPU Fan",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "Chassis Fan 1",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "Chassis Fan 2",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "Chassis Fan 3",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS WMI",
+      "Name": "Water Pump",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Fan1",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Fan2",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledPowerSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 3600",
+      "Name": "CPU Package Power",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Power",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledCurrentSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 3600",
+      "Name": "CPU TDC",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledFrequencySensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 3600",
+      "Name": "Core 0 Clock (perf #3/4)",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Clock",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Memory Clock",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledUsageSensors": [
+    {
+      "DeviceName": "System",
+      "Name": "Physical Memory Load",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Ryzen 5 3600",
+      "Name": "Total CPU Usage",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Core Load",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "NVIDIA GeForce RTX 3060 Ti",
+      "Name": "GPU Memory Usage",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledOtherSensors": [],
+  "SensorClassStates": [
+    {
+      "SensorClass": "Temperature",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Voltage",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Power",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Current",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Fan",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Frequency",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Usage",
+      "IsEnabled": true
+    },
+    {
+      "SensorClass": "Other",
+      "IsEnabled": true
+    }
+  ],
+  "DeviceTypeStates": [
+    {
+      "DeviceType": "Cpu",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Gpu",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Motherboard",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Storage",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Memory",
+      "IsEnabled": true
+    },
+    {
+      "DeviceType": "Other",
+      "IsEnabled": true
+    }
+  ],
+  "MonitoringUpdateInterval": 2,
+  "MonitoringUpdateIntervalUnit": "Seconds",
+  "GraphUpdateInterval": 2,
+  "GraphUpdateIntervalUnit": "Seconds",
+  "TemperatureAlertValue": 90,
+  "IsTemperatureAlertValueEnabled": false,
+  "Language": "English",
+  "Monitoring": true,
+  "MonitoringTableWidth": 700,
+  "SelectedMonitoringIndex": 0,
+  "SelectedArea": 0,
+  "CheckForUpdates": "Stable",
+  "SaveReportPath": "C:\\Users\\jerem\\Documents",
+  "SaveScreenshotPath": "C:\\Users\\jerem\\Documents",
+  "MotherboardName": "ASUS ROG STRIX B450-E GAMING",
+  "SelectedComponentUsage": "System",
+  "MonitoringShowOnlyEnabledSensors": false,
+  "MonitoringAreaDisplayMode": "TableAndGraph",
+  "StopOnError": false,
+  "StopOnWheaError": false,
+  "MonitoringEcEnable": true,
+  "MonitoringSmBusEnable": true,
+  "MonitoringGpuI2CEnable": false,
+  "MonitoringDriveScanEnable": false,
+  "MonitoringCsmiSasEnable": false,
+  "MonitoringImeEnable": false,
+  "MonitoringCorsairAsetekEnable": false,
+  "MonitoringDebugModeEnable": false,
+  "AllowOcbaseUpload": true,
+  "Skin": 0,
+  "FontSizeOffset": 0.0,
+  "LicenseExpirationWarningLastDisplay": 999,
+  "StabilitySchedule": {
+    "ScheduleType": "Stability",
+    "StabilityCertificateType": "System",
+    "Periods": [
+      {
+        "Duration": "00:30:00",
+        "Version": "800",
+        "IsInfinite": false,
+        "TestType": "PowerSupply",
+        "CpuOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Normal",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "ThreadSettingsThreads": "Physical",
+            "CycleActiveCore": "Disabled",
+            "SwapActiveCore": "Disabled",
+            "CycleActiveCoreInterval": 3,
+            "CycleActiveCoreIntervalUnit": "Seconds",
+            "SwapActiveCoreInterval": 5,
+            "SwapActiveCoreIntervalUnit": "Seconds",
+            "CoreActive": [
+              0
+            ]
+          }
+        },
+        "CpuLinpackConfig": {
+          "Version": "v2019",
+          "Threads": "PhysicalAndVirtual",
+          "Memory": 2048
+        },
+        "MemoryConfig": {
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "InstructionSet": "Auto"
+        },
+        "Gpu3dConfig": {
+          "Mode": "NoErrorDetection",
+          "UsageLimit": 100,
+          "ShaderComplexity": 3,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false
+        },
+        "GpuUnrealConfig": {
+          "IntensityType": "Variable",
+          "SteadyIntensityType": "Light",
+          "SteadyLoad": 30,
+          "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+          "VariableIntensityIncreaseStep": 4,
+          "VariableMinIntensity": 10,
+          "VariableMaxIntensity": 60,
+          "SwitchInterval": 500,
+          "SwitchFirstIntensity": 20,
+          "SwitchSecondIntensity": 80,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false
+        },
+        "VramConfig": {
+          "GpuIndex": 0,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent"
+        },
+        "MonitoringOnlyConfig": {
+          "Type": 0
+        },
+        "PowerSupplyConfig": {
+          "CpuOcctInstructionSet": "Avx2",
+          "GpuIndexes": [
+            0
+          ]
+        },
+        "CpuBenchmarkConfig": {
+          "Run": 0,
+          "Threads": "Single",
+          "InstructionSet": "Sse"
+        },
+        "MemoryBenchmarkConfig": {
+          "Run": 0,
+          "BenchmarkType": "Read"
+        }
+      }
+    ]
+  },
+  "BenchmarkSchedule": {
+    "ScheduleType": "Benchmark",
+    "StabilityCertificateType": "System",
+    "Periods": [
+      {
+        "Duration": "00:30:00",
+        "Version": "800",
+        "IsInfinite": true,
+        "TestType": "CpuBenchmark",
+        "CpuOcctConfig": {
+          "DataSet": "Large",
+          "OcctInstructionSet": "Auto",
+          "LoadType": "Variable",
+          "Mode": "Normal",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "StartAtCycle": 1,
+          "AdvancedThreadConfig": {
+            "ThreadSettingsThreads": "Physical",
+            "CycleActiveCore": "Disabled",
+            "SwapActiveCore": "Disabled",
+            "CycleActiveCoreInterval": 3,
+            "CycleActiveCoreIntervalUnit": "Seconds",
+            "SwapActiveCoreInterval": 5,
+            "SwapActiveCoreIntervalUnit": "Seconds",
+            "CoreActive": [
+              0
+            ]
+          }
+        },
+        "CpuLinpackConfig": {
+          "Version": "v2019",
+          "Threads": "PhysicalAndVirtual",
+          "Memory": 2048
+        },
+        "MemoryConfig": {
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent",
+          "Threads": "Auto",
+          "FixedThreadCount": 0,
+          "InstructionSet": "Auto"
+        },
+        "Gpu3dConfig": {
+          "Mode": "NoErrorDetection",
+          "UsageLimit": 100,
+          "ShaderComplexity": 3,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false
+        },
+        "GpuUnrealConfig": {
+          "IntensityType": "Variable",
+          "SteadyIntensityType": "Light",
+          "SteadyLoad": 30,
+          "VariableIntensityIncreaseIntervalTimeSpan": "00:00:30",
+          "VariableIntensityIncreaseStep": 4,
+          "VariableMinIntensity": 10,
+          "VariableMaxIntensity": 60,
+          "SwitchInterval": 500,
+          "SwitchFirstIntensity": 20,
+          "SwitchSecondIntensity": 80,
+          "GpuIndexes": [
+            0
+          ],
+          "TestAllGpus": false
+        },
+        "VramConfig": {
+          "GpuIndex": 0,
+          "MemoryInMiB": 0,
+          "MemoryInPercent": 80,
+          "MemoryMemUnit": "Percent"
+        },
+        "MonitoringOnlyConfig": {
+          "Type": 0
+        },
+        "PowerSupplyConfig": {
+          "CpuOcctInstructionSet": "Auto",
+          "GpuIndexes": [
+            0
+          ]
+        },
+        "CpuBenchmarkConfig": {
+          "Run": 0,
+          "Threads": "Multiple",
+          "InstructionSet": "Avx"
+        },
+        "MemoryBenchmarkConfig": {
+          "Run": 0,
+          "BenchmarkType": "Read"
+        }
+      }
+    ]
+  },
+  "StabilityCertificateSchedule": {
+    "ScheduleType": "StabilityCertificate",
+    "StabilityCertificateType": "System",
+    "StabilityCertificateConfigs": [
+      {
+        "StabilityCertificateType": "Cpu",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      },
+      {
+        "StabilityCertificateType": "Gpu",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      },
+      {
+        "StabilityCertificateType": "Memory",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      },
+      {
+        "StabilityCertificateType": "System",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [
+          0
+        ],
+        "GpuNames": [
+          "GeForce RTX 3060 Ti"
+        ]
+      },
+      {
+        "StabilityCertificateType": "SystemNo3d",
+        "StabilityCertificateLevel": "Bronze",
+        "GpuIndexes": [],
+        "GpuNames": []
+      }
+    ],
+    "Periods": []
+  },
+  "OptimizeEditionOptimizeSchedule": {
+    "ScheduleType": "CpuOptimize",
+    "StabilityCertificateType": "System",
+    "Periods": []
+  },
+  "SelectedMonitoringSummaryCpuIndex": 0,
+  "SelectedMonitoringSummaryGpuIndex": 0
+}
